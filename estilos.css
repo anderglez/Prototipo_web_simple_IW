@@ -1,0 +1,267 @@
+/*ESTILOS*/
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#presentacion,
+#experiencia,
+#solidaridad,
+#principal,
+#asistentes,
+#equipamiento,
+#tabla-categorias,
+#accion-campo,
+#vivencias,
+#info-contacto,
+#formulario {
+    border-top: 4px solid #10b981;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222222;
+    background-color: #f4f6f8;
+}
+
+/*HEADER*/
+header {
+    background-color: #111827;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 15px;
+    border-bottom: 5px solid #10b981;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    color: #10b981;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #d1d5db;
+}
+
+header .logo-header {
+    max-width: 90px;
+    height: auto;
+    margin: 0 auto 12px auto;
+    display: block;
+    box-shadow: none;
+}
+
+/*NAVEGACIÓN PRINCIPAL*/
+nav {
+    background-color: #1f2937;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #10b981;
+    color: #111827;
+}
+
+.indice-interno {
+    background-color: #e5e7eb;
+    max-width: 900px;
+    margin: 20px auto 0 auto;
+    padding: 15px 20px;
+    border-left: 5px solid #10b981;
+    border-radius: 4px;
+}
+
+.indice-interno ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.indice-interno a {
+    color: #1f2937;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.indice-interno a:hover {
+    text-decoration: underline;
+    color: #059669;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #111827;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #059669;
+    margin: 15px 0 10px 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+blockquote {
+    background-color: #f3f4f6;
+    border-left: 4px solid #10b981;
+    padding: 12px 15px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #4b5563;
+}
+
+/*TABLAS*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #1f2937;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    text-align: left;
+}
+
+th {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/*FORMULARIO*/
+form {
+    margin-top: 15px;
+}
+
+fieldset {
+    border: 1px solid #d1d5db;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    color: #111827;
+    padding: 0 8px;
+}
+
+label {
+    font-weight: bold;
+    color: #374151;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+button {
+    background-color: #10b981;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    background-color: #6b7280;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #111827;
+    color: #9ca3af;
+    text-align: center;
+    padding: 20px 15px;
+    margin-top: 30px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - El Tercer Equipo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <img src="img/logo-fvf-bff.jpg" alt="Escudo oficial de la Federación Vizcaína de Fútbol FVF-BFF" class="logo-header">
+        <h1>El Tercer Equipo</h1>
+        <p>Un año de arbitraje en la FVF-BFF contado desde dentro</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="roles.html">Funciones y Roles</a></li>
+            <li><a href="categorias.html">Categorías y Partidos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- ÍNDICE INTERNO -->
+    <div class="indice-interno">
+        <p><strong>En esta página:</strong></p>
+        <ul>
+            <li><a href="#info-contacto">Información</a></li>
+            <li><a href="#formulario">Formulario de Consultas</a></li>
+        </ul>
+    </div>
+
+    <main>
+
+        <section id="info-contacto">
+            <h2>¿Quieres saber más sobre el arbitraje?</h2>
+            <p>Si estás pensando en apuntarte a los cursos de arbitraje de la Federación Vizcaína de Fútbol o tienes alguna duda sobre el reglamento, puedes enviarme un mensaje mediante el siguiente formulario.</p>
+        </section>
+
+        <section id="formulario">
+            <h2>Formulario de Contacto / Consultas</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+
+                    <p>
+                        <label for="nombre">Nombre completo:</label><br>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ej: Jon Athletic">
+                    </p>
+
+                    <p>
+                        <label for="email">Correo electrónico:</label><br>
+                        <input type="email" id="email" name="email" required placeholder="tuemail@ejemplo.com">
+                    </p>
+
+                    <p>
+                        <label for="rol">Tu perfil futbolístico:</label><br>
+                        <select id="rol" name="rol">
+                            <option value="jugador">Jugador/a</option>
+                            <option value="entrenador">Entrenador/a o Cuerpo Técnico</option>
+                            <option value="aficionado">Aficionado/a</option>
+                            <option value="futuro-arbitro">Interesado/a en ser Árbitro</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Detalles de la Consulta</legend>
+
+                    <p>Tipo de consulta:</p>
+                    <p>
+                        <input type="radio" id="duda-regla" name="tipo_consulta" value="reglamento" checked>
+                        <label for="duda-regla">Duda sobre las Reglas de Juego</label><br>
+
+                        <input type="radio" id="curso-fvf" name="tipo_consulta" value="curso">
+                        <label for="curso-fvf">Información sobre Cursos FVF-BFF</label><br>
+
+                        <input type="radio" id="otro" name="tipo_consulta" value="otro">
+                        <label for="otro">Otro motivo</label>
+                    </p>
+
+                    <p>
+                        <label for="mensaje">Escribe tu mensaje:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe aquí tu duda o comentario..."></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="acepto" name="acepto" required>
+                        <label for="acepto">He leído y acepto los términos de la consulta.</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar Consulta</button>
+                    <button type="reset">Limpiar Formulario</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 El Tercer Equipo - Proyecto de Maquetación Web FVF-BFF</p>
+    </footer>
+
+</body>
+</html>
